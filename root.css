@@ -1,0 +1,36 @@
+:root {
+    --custom-yellow: #ffe600;
+    --custom-black: #000000;
+    --custom-white : #FBFFF4;
+}
+
+.custom-button {
+    background-color: var(--custom-black);
+    color: var(--custom-yellow);
+    font-family: Goli-Regular;
+    padding-top: 3px;
+    border: 5px solid var(--custom-black);
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: Goli-Light;
+    src: url("/fonts/Goli/Goli-Light.ttf");
+}
+@font-face {
+    font-family: Goli-Regular;
+    src: url("/fonts/Goli/Goli-Regular.ttf");
+}
+@font-face {
+    font-family: Goli-Medium;
+    src: url("/fonts/Goli/Goli-Medium.ttf");
+}
+@font-face {
+    font-family: Goli-SemiBold;
+    src: url("/fonts/Goli/Goli-SemiBold.ttf");
+}
+@font-face {
+    font-family: Goli-Bold;
+    src: url("/fonts/Goli/Goli-Bold.ttf");
+}
